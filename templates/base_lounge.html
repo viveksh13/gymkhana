@@ -1,0 +1,34 @@
+{% extends "base.html" %} {% block content %}
+<header class="intro-header" style="background-image: url('/static/img/lounge.jpg')">
+    <div class="container">
+        <div class="row">
+            <h1>&nbsp;</h1></div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Lounge</h1>
+                    <hr class="small">
+                    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>&nbsp;</h1></div>
+        <div class="row">
+            <h1>&nbsp;</h1></div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            {% block main_content %} {% endblock %}
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            
+            <h4><a href="/loungec">Lounge Calendar</a></h4>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
